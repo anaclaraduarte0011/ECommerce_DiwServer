@@ -1,0 +1,133 @@
+.nav-item{
+  font-size: 30px;
+}
+.navbar-brand{
+    font-family:Snell Roundhand, cursive;
+
+}
+
+#coiso{
+padding: 30px;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+
+}
+
+#body{
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+.navbar-brand{
+font-size: 40px;
+}
+.navbar{
+font-size: 25px;
+}
+
+svg {
+    fill: white;
+  }
+  
+
+.infos{
+color: white;
+font-size: 15px;
+margin-bottom: 0%;
+padding: 0%;
+margin-top: 0%;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  width: calc(25% - 20px);
+  margin-bottom: 20px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  height: 350px; /* Defina a altura desejada para as imagens */
+  object-fit: cover; /* Redimensiona a imagem para preencher o espaço definido */
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+p {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+
+li  {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+
+.btn {
+  display: block;
+  width: 100%;
+  margin-top: 15px;
+}
+
+#carousel {
+width: 800px;
+height: auto;
+margin-bottom: 30px;
+}
+#carousel img {
+  width: 500px;
+  height: 700px;
+  }
+  @media screen and (max-width: 767px) {
+    #carousel{
+      display: none; /* Oculta o carousel em dispositivos móveis com largura menor ou igual a 767px */
+    }
+    #rolador{
+      justify-content: center;
+    }
+    #siri{
+      justify-content: center;
+    }
+    .navbar-brand{
+      font-size: 25px;
+    }
+
+  }
+  .card-body{
+    color: white;
+    font-size: 25px;
+      }
+
+  .card-title{
+color: white;
+font-size: 25px;
+  }
+
+  .card-text{
+    font-size: 20px;
+    color: white;
+      }
